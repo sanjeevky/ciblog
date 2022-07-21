@@ -1,0 +1,77 @@
+/* 
+    Document   : main.css
+    Created on : Apr 10, 2013, 4:07:25 PM
+    Author     : Vivek
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body,html {
+		margin:0;
+		padding:0;
+		color:#000;
+		background:#a7a09a;
+	}
+#wrap {
+        width:750px;
+        margin:0 auto;
+        background:#99c;
+}
+#header {
+padding:5px 10px;
+background:#ddd;
+}
+#main {
+        float:left;
+        width:480px;
+        min-height:500px;
+        padding:10px;
+        background:#9c9;
+}
+#sidebar {
+        float:right;
+        width:230px;
+        height:500px;
+        padding:10px;
+        background:#99c;
+}
+#footer {
+        clear:both;
+        padding:5px 10px;
+        background:#cc9;
+}
+
+/****** End of Major Containers ***********/
+
+/*** Header CSS ***/
+p#site_name{ font-size: 24px; }
+#nav {
+        padding:5px 10px;
+        background:#c99;
+}
+#nav ul {
+        margin:0;
+        padding:0;
+        list-style:none;
+}
+#nav li {
+        display:inline;
+        margin:0;
+        padding:0;
+}
+
+/*** End Header CSS ***/
+
+h2 {
+        margin:0 0 1em;
+}
+
+#footer p {
+        margin:0;
+}
+* html #footer {
+        height:1px;
+}
+/******** Minor Details *******/
+.tag{ background-color:#ddd; padding:5px; margin-right:15px;}
+a.pagination{  padding:3px; margin-right:5px;}
