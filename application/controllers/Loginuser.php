@@ -119,7 +119,7 @@ class Loginuser extends CI_Controller
         }
         else
         {
-            redirct(base_url() .'post/sign_up');
+            redirct(base_url() .'post/sign_in');
 
         }
     }
@@ -127,7 +127,7 @@ class Loginuser extends CI_Controller
     function logout()
     {
         $this->session->unset_userdata('user_name');
-        redirect(base_url(). 'post/sign_up');
+        redirect(base_url(). 'post/sign_in');
     }
 
 }
